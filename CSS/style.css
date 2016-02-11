@@ -1,0 +1,61 @@
+html,body{
+    height: 100%;
+    color: #34495E;
+    font-family: lato;
+}
+header{
+    background-image: url("/img/intro5.jpg");
+    background-position:center center;
+    background-size: cover;
+    height: 100%;
+    padding:50px 0;
+}
+
+header h1{
+    color: white;
+    font-size: 80px;
+    font-family: "arvo";
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+header h2{
+    color: white;
+}
+
+header div a{
+    color: white;
+    background-color: #498FBD;
+    margin: 1em 2em;
+}
+header img{
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+nav {
+    background-color: #EAEEEF;
+}
+nav h2 {
+    display: inline-block;
+    font-size: 1.8em;
+    font-size: 30px;
+}
+nav ul{
+    display: inline-block;
+    margin-top: 1.5em;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 2em;
+}
+nav a {
+    color: #34495E;
+}
+
+#what_is {
+    font-size: 50px;
+}
+.espace_row{
+    margin-top: 3em;
+}
