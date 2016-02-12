@@ -59,19 +59,22 @@ nav a {
     color: #34495E;
 }
 section{
-    line-height: 1.5em;
+    line-height: 2em;
 }
 #section1{
     padding: 5em 0;
 }
-#what_is {
+.what_is {
     font-size: 50px;
 }
-.espace_row{
+.espace_row3em{
     margin-top: 3em;
 }
-.espace_row2 {
+.espace_row8em {
     margin-top: 8em;
+}
+.espace_row5em{
+    margin-top: 5em;
 }
 #section2{
     background-color: #F8F8F8;
@@ -104,5 +107,52 @@ section{
 }
 #section4{
     background-color: #F8F8F8;
+    padding: 6em 0;
+}
+#section4 p{
+    margin: 3em 0;
+}
+#section4 i{
+    margin-right: 1em;
+}
+#section5{
+    padding: 5em 0;
+}
+#section6 {
+    padding: 6em 0;
+    background-color: #34495E;
+    color: white;
+}
+#section6 a{
+    color: white;
+    padding: 0.8em 8em;
+    background-color: #1ABC9C;
+}
+#section6 p{
+    margin-bottom: 3em;
+}
+#section7{
+    padding: 6em 0;
+}
+#section7 img{
+    width: 100%;
+}
+#section8{
+    color: white;
+    padding: 6em 0;
+    background-image: url("/img/banner-bg.jpg");
+
+}
+#section8 a {
+    color: white;
+    background-color: #34495E;
+    padding: 0.4em 1em 0.4em 0;
+    border-radius: 3px;
+}
+#dollar{
+    color: #34495E;
+    text-shadow:0 0 3px white;
+}
+#section9{
     padding: 6em 0;
 }
