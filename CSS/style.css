@@ -25,8 +25,15 @@ header h2{
 
 header div a{
     color: white;
+    margin: 1em 0.5em;
+    padding: 0.7em 1.5em;
+    border-radius: 5px;
+}
+#a_twitter{
     background-color: #498FBD;
-    margin: 1em 2em;
+}
+#a_free{
+    border: 1px solid white;
 }
 header img{
     margin: auto;
@@ -38,7 +45,6 @@ nav {
 }
 nav h2 {
     display: inline-block;
-    font-size: 1.8em;
     font-size: 30px;
 }
 nav ul{
@@ -52,10 +58,51 @@ nav ul li {
 nav a {
     color: #34495E;
 }
-
+section{
+    line-height: 1.5em;
+}
+#section1{
+    padding: 5em 0;
+}
 #what_is {
     font-size: 50px;
 }
 .espace_row{
     margin-top: 3em;
+}
+.espace_row2 {
+    margin-top: 8em;
+}
+#section2{
+    background-color: #F8F8F8;
+    padding: 6em 0;
+}
+.p_clair{
+    color: #D7D7D7;
+    width: 70%;
+    margin: 2em 0 1em 0;
+}
+.p_description{
+    margin: 0 0 2.5em;
+}
+.view_details{
+    background-color: #1ABC9C;
+    box-shadow: 0 3px 0 #16A085;
+    padding: 0.7em 1em;
+    border-radius: 5px;
+    color: white;
+}
+.visit_website{
+    background-color: #3394D5;
+    box-shadow: 0 3px 0 #2A7BB2;
+    padding: 0.7em 1em;
+    border-radius: 5px;
+    color: white;
+}
+#section3{
+    padding: 6em 0;
+}
+#section4{
+    background-color: #F8F8F8;
+    padding: 6em 0;
 }
