@@ -21,6 +21,7 @@ header h1{
 
 header h2{
     color: white;
+    margin-bottom: 1em;
 }
 
 header div a{
@@ -32,8 +33,16 @@ header div a{
 #a_twitter{
     background-color: #498FBD;
 }
+#a_twitter:hover{
+    color: white;
+    text-decoration: none;
+}
 #a_free{
     border: 1px solid white;
+}
+#a_free:hover{
+    color: white;
+    text-decoration: none;
 }
 header img{
     margin: auto;
@@ -42,6 +51,9 @@ header img{
 }
 nav {
     background-color: #EAEEEF;
+}
+.circle{
+    margin-top: 24em;
 }
 nav h2 {
     display: inline-block;
@@ -76,6 +88,12 @@ section{
 .espace_row5em{
     margin-top: 5em;
 }
+#section1 img, #section7 img{
+    transition:transform 1s;
+}
+#section1 img:hover, #section7 img:hover{
+    transform: rotate(360deg);
+}
 #section2{
     background-color: #F8F8F8;
     padding: 6em 0;
@@ -91,6 +109,7 @@ section{
 .view_details{
     background-color: #1ABC9C;
     box-shadow: 0 3px 0 #16A085;
+    border: none;
     padding: 0.7em 1em;
     border-radius: 5px;
     color: white;
@@ -101,6 +120,9 @@ section{
     padding: 0.7em 1em;
     border-radius: 5px;
     color: white;
+}
+.croix{
+    cursor: url(../img/cross.png),auto;
 }
 #section3{
     padding: 6em 0;
@@ -155,4 +177,36 @@ section{
 }
 #section9{
     padding: 6em 0;
+}
+#bouton_vert{
+    background-color: #1ABC9C;
+    border: none;
+    box-shadow:
+}
+.ul_font > li {
+    display: inline-block;
+}
+.ul_font > li > a {
+    color: #34495E;
+}
+#section10{
+    background-color: #EDEFF1;
+    color: #D7D7D7;
+}
+#section10 h3{
+    margin-bottom: 1.3em;
+}
+#section10 .col-md-8 p{
+    line-height: 1.5em;
+}
+#section10 .col-md-8 a{
+    color: #ACACAC;
+}
+.fond_col{
+    background-color: #34495E;
+    color: white;
+}
+.fond_col a{
+    color: white;
+    text-decoration: underline;
 }
