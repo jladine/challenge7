@@ -10,7 +10,6 @@ header{
     height: 100%;
     padding:50px 0;
 }
-
 header h1{
     color: white;
     font-size: 80px;
@@ -18,12 +17,10 @@ header h1{
     font-weight: 300;
     letter-spacing: 6px;
 }
-
 header h2{
     color: white;
     margin-bottom: 1em;
 }
-
 header div a{
     color: white;
     margin: 1em 0.5em;
@@ -51,6 +48,8 @@ header img{
 }
 nav {
     background-color: #EAEEEF;
+    padding: 0.5em;
+    z-index:1;
 }
 .circle{
     margin-top: 24em;
@@ -58,10 +57,11 @@ nav {
 nav h2 {
     display: inline-block;
     font-size: 30px;
+    margin: 0;
 }
 nav ul{
     display: inline-block;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
 }
 nav ul li {
     display: inline-block;
@@ -70,11 +70,17 @@ nav ul li {
 nav a {
     color: #34495E;
 }
+nav a:hover{
+    text-decoration: none;
+    color: #313131;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
 section{
     line-height: 2em;
-}
-#section1{
-    padding: 5em 0;
+    padding: 6em 0;
 }
 .what_is {
     font-size: 50px;
@@ -124,12 +130,8 @@ section{
 .croix{
     cursor: url(../img/cross.png),auto;
 }
-#section3{
-    padding: 6em 0;
-}
 #section4{
     background-color: #F8F8F8;
-    padding: 6em 0;
 }
 #section4 p{
     margin: 3em 0;
@@ -137,11 +139,7 @@ section{
 #section4 i{
     margin-right: 1em;
 }
-#section5{
-    padding: 5em 0;
-}
 #section6 {
-    padding: 6em 0;
     background-color: #34495E;
     color: white;
 }
@@ -153,17 +151,12 @@ section{
 #section6 p{
     margin-bottom: 3em;
 }
-#section7{
-    padding: 6em 0;
-}
 #section7 img{
     width: 100%;
 }
 #section8{
     color: white;
-    padding: 6em 0;
     background-image: url("/img/banner-bg.jpg");
-
 }
 #section8 a {
     color: white;
@@ -174,9 +167,6 @@ section{
 #dollar{
     color: #34495E;
     text-shadow:0 0 3px white;
-}
-#section9{
-    padding: 6em 0;
 }
 #bouton_vert{
     background-color: #1ABC9C;
@@ -209,4 +199,15 @@ section{
 .fond_col a{
     color: white;
     text-decoration: underline;
+}
+#owl2 .item{
+  margin: 3px;
+}
+#owl2 .item img, #owl1 .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #8CDDCD;
 }
